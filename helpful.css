@@ -16,16 +16,17 @@
   margin-top: 50px;
 }
 
-.riddleArea {
+.question {
   background-color: grey;
   height: 50px;
   width: 400px;
   margin: auto;
   margin-top: 50px;
+  text-align: center;
 }
 
 .videoPlayer {
-  height: 360px;
+  height: 390px;
   width: 640px;
   margin: auto;
   border: 2px solid black;

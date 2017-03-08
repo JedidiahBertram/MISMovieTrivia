@@ -6,7 +6,7 @@ OBNOXIOUS YOUTUBE RIDDLE GAME
 
 The only 'problem' this project has the potential of solving
 is boredom. It's purely based in the land of humor, and fun.
-It is direcrted at anyone with a sense of humor, a desire to
+It is directed at anyone with a sense of humor, a desire to
 solve riddles, and a passion for pop culture/youtube videos.
 
 The project is just for basic, stupid fun at it's most basic
