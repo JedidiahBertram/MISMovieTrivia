@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="helpful.css">
+    <title>Try Not To...</title>
+</head>
+
+<body>
+
+    <h1>Make It Stop!</h1>
+    <h2>Movie Trivia Madness!!!</h2>
+
+    <div><span id="time">03:00</span>
+    </div>
+
+    <div class='score'>
+        SCORE
+    </div>
+
+    <div class='correctScoreDiv'>
+    </div>
+
+    <div class='incorrectScoreDiv'>
+    </div>
+
+    <div class='correct'>
+        correct
+    </div>
+
+    <div class='incorrect'>
+        wrong
+    </div>
+
+    <button class='wrongAlert' style="display: none;">WRONG!</button>
+    <button class='correctAlert' style="display: none;">CORRECT!</button>
+
+    <div class='videoPlayer'>
+        <button type="clicker">PLAY!</button>
+        <button type="button" style="display: none;">PLAY AGAIN!</button>
+
+        <div class='pauseBlocker'>
+        </div>
+        <div class='ytVideo'>
+        </div>
+    </div>
+
+    <div class='plotLabel'>
+        <h2>Plot Synopsis</h2>
+    </div>
+
+    <div class='question'>
+    </div>
+
+    <div class='inputDiv'>
+        <input class='test' id='userInput' type='text' placeholder="Type Movie Title Here" autofocus>
+        <br>
+        <input class='submitButton' type='submit'>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">RULES</button>
+    </div>
+    <div id="myDropdown" class="dropdown-content">
+        >Guess the movie title that matches the given plot synopsis to make the video stop.
+        <br><br> >The video is just to annoy you, you're NOT guessing what movie the clip is from.
+        <br><br> >Capitalization does not matter, but punctuation and spelling do.
+        <br><br> >The title must be exact.
+        <br><br> >Have fun! *maniacal laugh*
+    </div>
+</body>
+
+</html>
+>
