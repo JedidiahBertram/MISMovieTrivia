@@ -6,6 +6,7 @@
 * __jQuery__
 * __CSS__
 * __HTML__
+
 ---
 ### The Story Behind the MADNESS!
 This was the first webpage I ever built, and I was tasked with completing it in 7 days.
@@ -17,6 +18,7 @@ My knowledge before starting the bootcamp was very limited and really was just t
 The basic idea for the webpage was to make a fun and funny trivia app that distracts the player as they try to think of the guess with an obnoxious YouTube video playing in the background.
 
 At first, the trivia was supposed to be clever riddles that I wrote, and the YouTube videos would be provided through the YouTube API, but various challenges and obstacles popped up numerous times along the way and made me rethink the project almost completely and solve a lot of problems.
+
 ---
 ### Challenges:
 One of the biggest challenges I faced was accessing the YouTube API.
