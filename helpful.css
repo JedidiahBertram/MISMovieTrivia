@@ -1,236 +1,236 @@
 body {
-    background-image: url(backgroundStripes.jpg);
-    background-attachment: fixed;
+  background-image: url(backgroundStripes.jpg);
+  background-attachment: fixed;
 }
 
 h1 {
-    font-family: monospace;
-    font-size: 400%;
-    text-align: center;
+  font-family: monospace;
+  font-size: 400%;
+  text-align: center;
 }
 
 h2 {
-    font-family: monospace;
-    font-size: 200%;
-    text-align: center;
+  font-family: monospace;
+  font-size: 200%;
+  text-align: center;
 }
 
 #time {
-    font-family: monospace;
-    color: white;
-    font-size: 400%;
-    text-align: center;
-    position: fixed;
-    left: 20px;
-    top: 50px;
-    width: 160px;
-    height: 65px;
-    border: 2px solid black;
-    background-color: teal;
+  font-family: monospace;
+  color: white;
+  font-size: 400%;
+  text-align: center;
+  position: fixed;
+  left: 20px;
+  top: 50px;
+  width: 160px;
+  height: 65px;
+  border: 2px solid black;
+  background-color: teal;
 }
 
 .score {
-    width: 202px;
-    height: 25px;
-    border: 2px solid black;
-    font-family: monospace;
-    font-size: 175%;
-    font-weight: bold;
-    text-align: center;
-    position: fixed;
-    top: 23px;
-    right: 20px;
-    background-color: lightgrey;
+  width: 202px;
+  height: 25px;
+  border: 2px solid black;
+  font-family: monospace;
+  font-size: 175%;
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  top: 23px;
+  right: 20px;
+  background-color: lightgrey;
 }
 
 .correctScoreDiv {
-    font-family: monospace;
-    color: white;
-    font-size: 600%;
-    text-align: center;
-    position: fixed;
-    right: 20px;
-    top: 50px;
-    width: 100px;
-    height: 100px;
-    border: 2px solid black;
-    background-color: teal;
+  font-family: monospace;
+  color: white;
+  font-size: 600%;
+  text-align: center;
+  position: fixed;
+  right: 20px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background-color: teal;
 }
 
 .incorrectScoreDiv {
-    font-family: monospace;
-    color: white;
-    font-size: 600%;
-    text-align: center;
-    position: fixed;
-    right: 122px;
-    top: 50px;
-    width: 100px;
-    height: 100px;
-    border: 2px solid black;
-    background-color: orange;
+  font-family: monospace;
+  color: white;
+  font-size: 600%;
+  text-align: center;
+  position: fixed;
+  right: 122px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  background-color: orange;
 }
 
 .correct {
-    width: 100px;
-    height: 20px;
-    border: 2px solid black;
-    font-family: monospace;
-    font-size: 120%;
-    font-weight: bold;
-    text-align: center;
-    position: fixed;
-    top: 152px;
-    right: 20px;
-    background-color: lightgrey;
+  width: 100px;
+  height: 20px;
+  border: 2px solid black;
+  font-family: monospace;
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  top: 152px;
+  right: 20px;
+  background-color: lightgrey;
 }
 
 .incorrect {
-    width: 100px;
-    height: 20px;
-    border: 2px solid black;
-    font-family: monospace;
-    font-size: 120%;
-    font-weight: bold;
-    text-align: center;
-    position: fixed;
-    top: 152px;
-    right: 122px;
-    background-color: lightgrey;
+  width: 100px;
+  height: 20px;
+  border: 2px solid black;
+  font-family: monospace;
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  top: 152px;
+  right: 122px;
+  background-color: lightgrey;
 }
 
 button {
-    margin-top: 120px;
-    font-size: 200%;
-    font-family: monospace;
-    width: 250px;
-    height: 150px;
-    text-align: center;
-    padding: 5px 15px;
-    background: #F39121;
-    border: 5px solid black;
-    cursor: pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px grey;
+  margin-top: 120px;
+  font-size: 200%;
+  font-family: monospace;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  padding: 5px 15px;
+  background: #F39121;
+  border: 5px solid black;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px grey;
 }
 
 .wrongAlert {
-    height: 175px;
-    width: 250px;
-    position: fixed;
-    left: 600px;
-    font-size: 300%;
-    text-align: center;
-    border: 5px solid black;
-    box-shadow: 3px 3px 5px grey;
+  height: 175px;
+  width: 250px;
+  position: fixed;
+  left: 600px;
+  font-size: 300%;
+  text-align: center;
+  border: 5px solid black;
+  box-shadow: 3px 3px 5px grey;
 }
 
 .correctAlert {
-    height: 175px;
-    width: 250px;
-    position: fixed;
-    left: 600px;
-    font-size: 300%;
-    background-color: teal;
-    color: white;
-    text-align: center;
-    border: 5px solid white;
-    box-shadow: 3px 3px 2px grey;
+  height: 175px;
+  width: 250px;
+  position: fixed;
+  left: 600px;
+  font-size: 300%;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  border: 5px solid white;
+  box-shadow: 3px 3px 2px grey;
 }
 
 .videoPlayer {
-    height: 390px;
-    width: 640px;
-    margin: auto;
-    border: 3px solid teal;
-    background-color: lightgrey;
-    text-align: center;
-    box-shadow: 3px 3px 2px grey
+  height: 390px;
+  width: 640px;
+  margin: auto;
+  border: 3px solid teal;
+  background-color: lightgrey;
+  text-align: center;
+  box-shadow: 3px 3px 2px grey
 }
 
 .question {
-    font-family: monospace;
-    font-size: 150%;
-    border: 3px solid teal;
-    background-color: lightgrey;
-    height: auto;
-    width: 400px;
-    margin: auto;
-    margin-top: 25px;
-    text-align: center;
-    overflow: visible;
-    box-shadow: 3px 3px 2px grey
+  font-family: monospace;
+  font-size: 150%;
+  border: 3px solid teal;
+  background-color: lightgrey;
+  height: auto;
+  width: 400px;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+  overflow: visible;
+  box-shadow: 3px 3px 2px grey
 }
 
 .inputDiv {
-    width: 200px;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    text-align: center;
+  width: 200px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  text-align: center;
 }
 
 .test {
-    font-size: 100%;
-    text-align: center;
-    width: 200px;
-    height: 25px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid #ccc;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+  font-size: 100%;
+  text-align: center;
+  width: 200px;
+  height: 25px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .submitButton {
-    width: 212px;
-    height: 25px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 5px 15px;
-    background: #F39121;
-    border: 1px solid black;
-    cursor: pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px grey;
+  width: 212px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px 15px;
+  background: #F39121;
+  border: 1px solid black;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px grey;
 }
 
 .pauseBlocker {
-    height: 392px;
-    width: 642px;
-    position: absolute;
+  height: 392px;
+  width: 642px;
+  position: absolute;
 }
 
 .dropbtn {
-    height: 30px;
-    width: 164px;
-    border: 2px solid black;
-    position: fixed;
-    left: 20px;
-    top: 0px;
-    font-size: 150%;
-    padding: 0;
-    font-weight: bold;
-    box-shadow: 0px 0px 0px;
+  height: 30px;
+  width: 164px;
+  border: 2px solid black;
+  position: fixed;
+  left: 20px;
+  top: 0px;
+  font-size: 150%;
+  padding: 0;
+  font-weight: bold;
+  box-shadow: 0px 0px 0px;
 }
 
 #myDropdown {
-    padding: 2px;
-    font-family: monospace;
-    font-size: 120%;
-    width: 156px;
-    border: 2px solid black;
-    position: fixed;
-    left: 20px;
-    top: 148px;
-    background-color: lightgrey;
-    overflow: show;
+  padding: 2px;
+  font-family: monospace;
+  font-size: 120%;
+  width: 156px;
+  border: 2px solid black;
+  position: fixed;
+  left: 20px;
+  top: 148px;
+  background-color: lightgrey;
+  overflow: show;
 }
 
 absolute;
