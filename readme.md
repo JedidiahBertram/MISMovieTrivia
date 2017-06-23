@@ -68,3 +68,14 @@ Eventually with this functionality the app worked as follows:
 When a player hit start, the timer would begin counting down and a video and question would load. As they guessed, the scores for correct or incorrect would increase, and if the correct guess was given, the video would cycle. Giving the player a slight reprieve from the horribleness, with a different video. When the timer runs out, the score is still displayed, and the user is given the option to play again. In the end it came out to be a beat your last score type of game.
 
 After that, all I had left was styling, which I wanted to do 100% in HTML and CSS just to brush up my chops there, and I think it turned out pretty well.
+
+---
+### Screenshots and GIFs:
+![alt text](https://github.com/JedidiahBertram/obnoxious-youtube-game/blob/master/assets/Screen%20Shot%202017-06-23%20at%2010.23.21%20AM.png)
+
+#### Walkthrough GIFs
+Start:
+![alt text](https://github.com/JedidiahBertram/obnoxious-youtube-game/blob/master/assets/makeitstopgif1.gif)
+
+End:
+![alt text](https://github.com/JedidiahBertram/obnoxious-youtube-game/blob/master/assets/makeitstopgif2.gif)
