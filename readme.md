@@ -30,7 +30,7 @@ So I couldn't use the YouTube API. I had to figure out another way to get random
 
 This is what that code looked like:
 
-```var videoIds = ['b-t8JmyCvWg', '2d2xFRb6Srs', '8of00uEVRRA', 'f_SwD7RveNE', 'BB0DU4DoPP4',
+``` var videoIds = ['b-t8JmyCvWg', '2d2xFRb6Srs', '8of00uEVRRA', 'f_SwD7RveNE', 'BB0DU4DoPP4',
     'TnnBgRHlRRc', 'dMLaKR9eoRA', 'IAR5cqVYQKw', 'LEC_lkpD3rM', 'dDfmUTXXi_U', 'qWPwfQcPS5s',
     '3S8ynIDYyG4', 'o1eHKf-dMwo'
   ];
