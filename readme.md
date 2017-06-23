@@ -75,7 +75,9 @@ After that, all I had left was styling, which I wanted to do 100% in HTML and CS
 
 #### Walkthrough GIFs
 Start:
+
 ![alt text](https://github.com/JedidiahBertram/obnoxious-youtube-game/blob/master/assets/makeitstopgif1.gif)
 
 End:
+
 ![alt text](https://github.com/JedidiahBertram/obnoxious-youtube-game/blob/master/assets/makeitstopgif2.gif)
