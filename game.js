@@ -4,7 +4,6 @@ $(document).ready(function() {
     $('button[type=clicker]').hide();
     obnoxiousGame();
   });
-  //obnoxiousGame();
 
   $('button[type=button]').on('click', function(ev) {
     $('button[type=button]').hide();
@@ -48,7 +47,6 @@ $(document).ready(function() {
 
     var userCorrectScore = 0;
     var userIncorrectScore = 0;
-    //console.log(userScore);
 
     var videoIds = ['b-t8JmyCvWg', '2d2xFRb6Srs', '8of00uEVRRA', 'f_SwD7RveNE', 'BB0DU4DoPP4',
       'TnnBgRHlRRc', 'dMLaKR9eoRA', 'IAR5cqVYQKw', 'LEC_lkpD3rM', 'dDfmUTXXi_U', 'qWPwfQcPS5s',
@@ -58,13 +56,10 @@ $(document).ready(function() {
     function videoLoad() {
       var videoId = videoIds[Math.floor(Math.random() * videoIds.length)];
 
-      //console.log(videoId);
-
       var embedUrl = `<iframe width="640" height="390" src='https://www.youtube.com/embed/${videoId}?version=3&autoplay=1&controls=0&disablekb=0&&showinfo=0&loop=1&playlist=${videoId}'; frameborder="0"></iframe>`;
 
       var ytVideo = $('.ytVideo');
       ytVideo.append(embedUrl);
-      //$('iframe').attr('src' , url);
     }
 
     videoLoad();
@@ -80,13 +75,10 @@ $(document).ready(function() {
     function questionLoad() {
       var movieId = movieIds[Math.floor(Math.random() * movieIds.length)];
       $('input[type=submit]').off('click');
-      //console.log(movieId);
 
       $.get('http://www.omdbapi.com/?i=' + movieId + '&apikey=25fb2c7a')
         .done(function(data) {
           var triviaInfo = data.Plot;
-
-          //console.log(triviaInfo);
 
           var moviePlot = $(`<p>${triviaInfo}</p>`);
           var triviaQuestion = $('.question');
@@ -95,31 +87,22 @@ $(document).ready(function() {
           $('input[type=submit]').on('click', function(ev) {
             event.preventDefault();
             var userInput = $('input[type=text]').val();
-            //console.log(userInput);
 
             if (userInput.toLowerCase() === data.Title.toLowerCase()) {
               $('input[type=text]').val("");
-              //console.log(userInput);
               userCorrectScore += 1;
               $('.correctAlert').show().delay(1000).fadeOut("fast");
               $('.correctScoreDiv').empty();
               $('.correctScoreDiv').append(userCorrectScore);
-              //console.log(userScore);
               $('.ytVideo').empty();
               $('.question').empty();
-              //window.alert('You got it right! You know your movies(/TV shows)');
-              //window.alert('Click ok to play again! (If you think you can handle it.)');
-              //window.location.reload();
-              //$('.question').load(triviaInfo);
               videoLoad();
               questionLoad();
             } else {
               userIncorrectScore += 1;
               $('.incorrectScoreDiv').empty();
               $('.incorrectScoreDiv').append(userIncorrectScore);
-              //window.alert('Incorrect. Click ok to keep trying.');
               $('.wrongAlert').show().delay(1000).fadeOut("fast");
-              //console.log('WTF MATE!?');
             }
 
           });

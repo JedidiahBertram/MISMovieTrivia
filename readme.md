@@ -1,5 +1,6 @@
 # Make It Stop Movie Trivia Madness
 ![alt text](https://github.com/JedidiahBertram/obnoxious-youtube-game/blob/master/assets/Screen%20Shot%202017-06-23%20at%2010.16.38%20AM.png)
+
 ---
 ### Stack:
 * __JavaScript__
@@ -26,6 +27,25 @@ One of the biggest challenges I faced was accessing the YouTube API.
 I spent the first three days of the week we were given for the project studying how google API's and the YouTube API work. I got a pretty good grasp on how google API's work, and getting keys for google APIs, but the complexity that the YouTube API has come to in recent years would illude me. After three days of trying to get it working, I asked my instructor for help, and he said that it might be too complex for me to figure out and get working in a week and I should figure something else out. Some may see this as time wasted, but even though the initial goal was never met, I still learned A LOT from the three days of studying and trial and error.
 
 So I couldn't use the YouTube API. I had to figure out another way to get random videos to play on the webpage, or start a new project all together. It didn't take me long to decipher the YouTube player embed code, and use javascript to cycle through a list of super obnoxious videos. I also figured out how to make the video repeat endlessly, and take away controls of the player entirely so that the user could never stop the video, or adjust the volume within the player.
+
+This is what that code looked like:
+
+```var videoIds = ['b-t8JmyCvWg', '2d2xFRb6Srs', '8of00uEVRRA', 'f_SwD7RveNE', 'BB0DU4DoPP4',
+    'TnnBgRHlRRc', 'dMLaKR9eoRA', 'IAR5cqVYQKw', 'LEC_lkpD3rM', 'dDfmUTXXi_U', 'qWPwfQcPS5s',
+    '3S8ynIDYyG4', 'o1eHKf-dMwo'
+  ];
+
+  function videoLoad() {
+    var videoId = videoIds[Math.floor(Math.random() * videoIds.length)];
+
+    var embedUrl = `<iframe width="640" height="390" src='https://www.youtube.com/embed/${videoId}?version=3&autoplay=1&controls=0&disablekb=0&&showinfo=0&loop=1&playlist=${videoId}'; frameborder="0"></iframe>`;
+
+    var ytVideo = $('.ytVideo');
+    ytVideo.append(embedUrl);
+  }
+
+  videoLoad();
+  ```
 
 But I still had to find an API to use, as it was one of the requirements of the project.
 
