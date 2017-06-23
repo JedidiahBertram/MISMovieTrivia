@@ -81,3 +81,8 @@ Start:
 End:
 
 ![alt text](https://github.com/JedidiahBertram/obnoxious-youtube-game/blob/master/assets/makeitstopgif2.gif)
+
+---
+__If you would like to play the game yourself, it is deployed here:__
+
+http://makeitstopmovietrivia.surge.sh/
